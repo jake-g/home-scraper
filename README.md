@@ -1,11 +1,13 @@
 # Home Scraper
 
-[![View on GitHub](https://img.shields.io/badge/View_on-GitHub-181717?logo=github&style=flat)](https://github.com/jake-g/housing_feed)
-[![CI Status](https://github.com/jake-g/housing_feed/actions/workflows/ci.yml/badge.svg)](https://github.com/jake-g/housing_feed/actions/workflows/ci.yml)
-[![View Seattle Feed](https://img.shields.io/badge/GitHub_Pages-deployed-success?logo=github&style=flat)](https://jake-g.github.io/housing_feed/)
+[![View on GitHub](https://img.shields.io/badge/View_on-GitHub-181717?logo=github&style=flat)](https://github.com/jake-g/home-scraper)
+[![CI Status](https://github.com/jake-g/home-scraper/actions/workflows/ci.yml/badge.svg)](https://github.com/jake-g/home-scraper/actions/workflows/ci.yml)
+[![View Seattle Feed](https://img.shields.io/badge/GitHub_Pages-deployed-success?logo=github&style=flat)](https://jake-g.github.io/home-scraper/)
 
 
-A robust python-based tool that automates the extraction and local archiving of housing notifications from Zillow and Redfin.
+A Python tool that automates the extraction and local archiving of housing notifications from Zillow and Redfin.
+
+**View Dashboard:** [https://jake-g.github.io/home-scraper/](https://jake-g.github.io/home-scraper/)
 
 1. **Fetch**: Connects to Gmail, incrementally fetches new housing emails (Redfin/Zillow) since the last run, and saves them as raw HTML files.
 2. **Parse**: Iterates through the HTML files, extracts property details (Price, Beds, Baths, etc.) using regex/BeautifulSoup, and deduplicates them into `housing_database.tsv`.

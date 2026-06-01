@@ -264,12 +264,12 @@ def _stable_html_header(cur_page_file: str,
             </select>
         </div>
         <div class="src-link" style="margin-top: 10px;">
-            <a href="https://github.com/jake-g/housing_feed" target="_blank" style="text-decoration: none; font-size: 0.9em;">View on GitHub</a>
+            <a href="https://github.com/jake-g/home-scraper" target="_blank" style="text-decoration: none; font-size: 0.9em;">View on GitHub</a>
         </div>
     </div>
 
         <div class="src-link" style="margin-top: 10px;">
-            <a href="https://github.com/jake-g/housing_feed" target="_blank" style="text-decoration: none; font-size: 0.9em;">View on GitHub</a>
+            <a href="https://github.com/jake-g/home-scraper" target="_blank" style="text-decoration: none; font-size: 0.9em;">View on GitHub</a>
         </div>
     </div>
     """
