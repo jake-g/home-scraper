@@ -1,6 +1,6 @@
 # run_home_scraper_and_push_site.ps1
 $Host.UI.RawUI.WindowTitle = "home-scraper"
-Set-Location "D:\Projects\_Projects_Synced\home-scraper"
+Set-Location "B:\Projects\_Projects_Synced\home-scraper"
 
 Write-Host "Updating dependencies..." -ForegroundColor Cyan
 pip install --upgrade -r requirements.txt
