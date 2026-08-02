@@ -9,7 +9,7 @@ repos:
         additional_dependencies: [toml]
 
   - repo: https://github.com/PyCQA/isort
-    rev: 8.0.0
+    rev: 9.0.0b1
     hooks:
       - id: isort
         stages: [pre-commit]
@@ -27,7 +27,7 @@ repos:
         args: ['--maxkb=50000'] # Set higher because of HTML files
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.19.1
+    rev: v2.3.0
     hooks:
       - id: mypy
         additional_dependencies: [types-requests, pandas-stubs, types-beautifulsoup4]
@@ -35,7 +35,7 @@ repos:
         args: [--ignore-missing-imports, --explicit-package-bases]
 
   - repo: https://github.com/PyCQA/pylint
-    rev: v4.0.5
+    rev: v4.0.6
     hooks:
       - id: pylint
         args:

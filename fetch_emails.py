@@ -32,8 +32,12 @@ from bs4 import Tag
 import pandas as pd
 from tqdm import tqdm
 
-from credentials import EMAIL_ADDRESS
-from credentials import EMAIL_PASSWORD
+try:
+  from credentials import EMAIL_ADDRESS
+  from credentials import EMAIL_PASSWORD
+except ImportError:
+  EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS', '')
+  EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD', '')
 import generate_report
 
 logger = logging.getLogger(__name__)

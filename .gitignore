@@ -6,6 +6,8 @@ credentials.py
 .DS_Store
 *.zip
 *.py[cod]
+.coverage
+coverage.xml
 
 # Ignore Directories
 .venv/
