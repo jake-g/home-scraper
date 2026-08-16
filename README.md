@@ -46,7 +46,7 @@ The scraper uses a stable pagination system to minimize file churn in git:
 ## Latest Report
 <!-- REPORT_START -->
 ### Latest Data Summary
-Generated on: 2026-08-09 03:39
+Generated on: 2026-08-16 03:39
 
 #### Data Coverage
 - **Total Emails Cached**: **3063638** (Source: `.email_cache.tsv`)
