@@ -46,12 +46,12 @@ The scraper uses a stable pagination system to minimize file churn in git:
 ## Latest Report
 <!-- REPORT_START -->
 ### Latest Data Summary
-Generated on: 2026-09-20 03:38
+Generated on: 2026-09-27 03:38
 
 #### Data Coverage
-- **Total Emails Cached**: **3099894** (Source: `.email_cache.tsv`)
-- **Total Emails Parsed**: **3937** (Processed this run)
-- **Total Listings in Database**: **50358** (Unique records in `housing_database.tsv`)
+- **Total Emails Cached**: **3101561** (Source: `.email_cache.tsv`)
+- **Total Emails Parsed**: **4014** (Processed this run)
+- **Total Listings in Database**: **50394** (Unique records in `housing_database.tsv`)
 - **Parsing Errors**: **0**
 
 ### Market Visualizations
@@ -81,51 +81,51 @@ Generated on: 2026-09-20 03:38
 ![Zip Code Features](plots/zip_code_features.png)
 
 ### Parsing Statistics
-- **Total Emails Parsed**: 3937
-- **Total Unique Properties Extracted**: 84750
+- **Total Emails Parsed**: 4014
+- **Total Unique Properties Extracted**: 86778
 - **Missing Price**: 0 (0.0%)
-- **Missing Beds**: 9395 (11.1%)
-- **Missing Baths**: 9398 (11.1%)
-- **Missing Sqft**: 9419 (11.1%)
+- **Missing Beds**: 9497 (10.9%)
+- **Missing Baths**: 9500 (10.9%)
+- **Missing Sqft**: 9521 (11.0%)
 - **Missing Listing Link**: 0 (0.0%)
-- **Missing City**: 4389 (5.2%)
-- **Missing Zip**: 41949 (49.5%)
-- **Missing Type**: 68124 (80.4%)
-- **Missing Address**: 41959 (49.5%)
-- **Missing Status**: 33180 (39.2%)
-- **Missing Open House**: 39137 (46.2%)
-- **Missing Builder**: 61837 (73.0%)
+- **Missing City**: 4430 (5.1%)
+- **Missing Zip**: 43088 (49.7%)
+- **Missing Type**: 70130 (80.8%)
+- **Missing Address**: 43098 (49.7%)
+- **Missing Status**: 33662 (38.8%)
+- **Missing Open House**: 39737 (45.8%)
+- **Missing Builder**: 63213 (72.8%)
 
 ### Dataset Overview
-- **Total Rows**: 50358
+- **Total Rows**: 50394
 - **Total Columns**: 15
 
 #### Numerical Features
 |                |   count |      mean |       std |      min |       25% |       50% |       75% |         max |    median |
 |:---------------|--------:|----------:|----------:|---------:|----------:|----------:|----------:|------------:|----------:|
-| Zip            |   19294 |  98104.4  |      7.17 | 98003    |  98101    |  98103    |  98103    | 98199       |  98103    |
-| Price          |   50358 | 772338    | 292384    |     1    | 749950    | 835893    | 925000    |     3.2e+06 | 835893    |
-| Beds           |   45110 |      2.77 |      3.16 |     1    |      2    |      3    |      3    |   463       |      3    |
-| Baths          |   45108 |      2.4  |      0.59 |     1    |      2    |      2    |      3    |     7       |      2    |
-| Sqft           |   45087 |   1494.4  |    396.99 |   700    |   1200    |   1430    |   1685    |  8352       |   1430    |
-| Price_Per_Sqft |   45087 |    572.82 |    172.38 |     0.16 |    515.08 |    595.94 |    675.14 |  1146.02    |    595.94 |
+| Zip            |   19296 |  98104.4  |      7.17 | 98003    |  98101    |  98103    |  98103    | 98199       |  98103    |
+| Price          |   50394 | 772427    | 292418    |     1    | 749950    | 835893    | 925000    |     3.2e+06 | 835893    |
+| Beds           |   45145 |      2.77 |      3.16 |     1    |      2    |      3    |      3    |   463       |      3    |
+| Baths          |   45143 |      2.4  |      0.59 |     1    |      2    |      2    |      3    |     7       |      2    |
+| Sqft           |   45122 |   1494.54 |    397.1  |   700    |   1200    |   1430    |   1685.75 |  8352       |   1430    |
+| Price_Per_Sqft |   45122 |    572.81 |    172.39 |     0.16 |    515.08 |    595.94 |    675.14 |  1146.02    |    595.94 |
 
 #### Categorical Features
-|               |   count |   unique | mean                             | min                       | 25%                       | 50%                       | 75%                       | max                       |
-|:--------------|--------:|---------:|:---------------------------------|:--------------------------|:--------------------------|:--------------------------|:--------------------------|:--------------------------|
-| Date          |   50358 |          | 2024-10-08 03:09:27.623873+00:00 | 2022-07-06 07:34:16+00:00 | 2023-09-08 07:47:04+00:00 | 2024-11-08 08:39:45+00:00 | 2025-12-04 01:31:19+00:00 | 2026-09-20 00:35:20+00:00 |
-| Source        |   50358 |        4 |                                  |                           |                           |                           |                           |                           |
-| Property_Type |   50358 |        7 |                                  |                           |                           |                           |                           |                           |
-| City          |   50358 |       68 |                                  |                           |                           |                           |                           |                           |
-| Address       |   50358 |     1933 |                                  |                           |                           |                           |                           |                           |
-| Status        |   50358 |        4 |                                  |                           |                           |                           |                           |                           |
-| Open_House    |   50358 |      596 |                                  |                           |                           |                           |                           |                           |
-| Builder       |   50358 |     1214 |                                  |                           |                           |                           |                           |                           |
+|               |   count |   unique | mean                             | min                       | 25%                       | 50%                       | 75%                              | max                       |
+|:--------------|--------:|---------:|:---------------------------------|:--------------------------|:--------------------------|:--------------------------|:---------------------------------|:--------------------------|
+| Date          |   50394 |          | 2024-10-08 15:25:29.523713+00:00 | 2022-07-06 07:34:16+00:00 | 2023-09-08 07:47:04+00:00 | 2024-11-08 08:39:45+00:00 | 2025-12-04 08:16:37.250000+00:00 | 2026-09-25 11:57:00+00:00 |
+| Source        |   50394 |        4 |                                  |                           |                           |                           |                                  |                           |
+| Property_Type |   50394 |        7 |                                  |                           |                           |                           |                                  |                           |
+| City          |   50394 |       68 |                                  |                           |                           |                           |                                  |                           |
+| Address       |   50394 |     1933 |                                  |                           |                           |                           |                                  |                           |
+| Status        |   50394 |        4 |                                  |                           |                           |                           |                                  |                           |
+| Open_House    |   50394 |      597 |                                  |                           |                           |                           |                                  |                           |
+| Builder       |   50394 |     1214 |                                  |                           |                           |                           |                                  |                           |
 
 ### Property Type Distribution
 | Property_Type   |   Count | Percent   |
 |:----------------|--------:|:----------|
-| Unknown         |   40428 | 80.3%     |
+| Unknown         |   40464 | 80.3%     |
 | House           |    7183 | 14.3%     |
 | Home            |    2730 | 5.4%      |
 | Townhouse       |      14 | 0.0%      |
@@ -136,7 +136,7 @@ Generated on: 2026-09-20 03:38
 ### Top 10 Zip Codes
 |   Zip Code | Neighborhood        |   Count |
 |-----------:|:--------------------|--------:|
-|      98101 | Downtown            |    8962 |
+|      98101 | Downtown            |    8964 |
 |      98103 | Green Lake          |    5941 |
 |      98115 | Wedgwood/View Ridge |    2001 |
 |      98105 | U-District          |     809 |
